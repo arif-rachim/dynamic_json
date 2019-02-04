@@ -2,15 +2,15 @@ import 'package:dynamic_json/dynamic_json.dart';
 
 main() {
   final person = Dynamic({
-    "FirstName": "John",
-    "LastName": "Doe",
+    "FirstName": "Arif",
+    "LastName": "Rachim",
     "Address": {
       "City": "Dubai",
       "Phone": "050123456",
       "Favorites": ["JavaScript", "ActionScript", "Java", "Dart"]
     }
   });
-  print(person.FirstName()); // John
+  print(person.FirstName()); // Arif
   print(person.Address.City()); // Dubai
   print(person.Address
       .Favorites()); // ["JavaScript","ActionScript","Java","Dart"]
