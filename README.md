@@ -1,4 +1,4 @@
-Access JSON attributes with dot operator.
+# Access JSON attributes with dot operator.
 
 Dynamic is a function that accepts JSON (Map), and returns a DynamicObject. 
 With DynamicObject, we can take values ​​from JSON using dot operators instead 
@@ -6,9 +6,7 @@ of using brackets. We can also chain dot operators to retrieve nested values ​
 Object too. When we perform chain calls, the last call must be closed with parentheses 
 (as if calling a function) to get the actual value.
 
-marsa.emreef@gmail.com 2019
-
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+[license](https://github.com/marsa-emreef/dynamic_json/blob/master/LICENSE.md).
 
 ## Usage
 
@@ -23,7 +21,5 @@ main() {
     print(person.Address.City()); // Dubai
     print(person.Address.Favorites()); // ["JavaScript","ActionScript","Java","Dart"]
     print(person.Address.Favorites[0]()); // JavaScript
-
 }
 ```
-
