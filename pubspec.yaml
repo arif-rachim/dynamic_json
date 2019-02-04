@@ -1,7 +1,7 @@
 name: dynamic_json
 description: Retrieves the value from inside the JSON/Map using dot operator.
 version: 0.0.1
-homepage: https://www.example.com
+homepage: https://github.com/marsa-emreef/dynamic_json
 author: marsa-emreef <marsa.emreef@gmail.com>
 
 environment:
